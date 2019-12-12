@@ -26,7 +26,7 @@ public class TheApp extends Application {
 		
 		
 		// Load the dictionary words from the file
-		ArrayList<String> dictWords = new ArrayList<String>();
+		HashSet<String> dictWords = new HashSet<String>();
 		File dictFile = new File("dict.txt");
         try {
             Scanner input = new Scanner(dictFile); 
